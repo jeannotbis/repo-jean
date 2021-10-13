@@ -8,7 +8,7 @@ La fonction *first_look_at_the_datasets* permet de se faire une première idée 
 
 Je note que le dataset train a 632'000 points, tandis que le dataset test en a 32'000.
 
-J'ai ensuite mené une analyse du dataset train en commençant par faire un histogram de la distribution de chaque variable sur le dataset d'entraînement df_train. Pour cela j'ai appelé la fonction *histogram_plot* sur le dataframe *df_train*. Cette fonction sauvegarde un histogramme par variable numérique dans le dossier histograms_numerical et un histogramme par variable catégorique dans le dossier histograms_categorical. J'ai observé les résultats suivants :
+J'ai ensuite mené une analyse du dataset train en commençant par faire un histogram de la distribution de chaque variable sur le dataset d'entraînement df_train. Pour cela j'ai appelé la fonction *histogram_plot* sur le dataframe *df_train*. Cette fonction sauvegarde un histogramme par variable numérique dans le dossier histograms_numerical et un histogramme par variable catégorique dans le dossier histograms_categorical. A noter que pour tester cette fonction il faut créer ces deux dossiers. J'ai observé les résultats suivants :
 
 - la variable demand prends des valeurs entre 0 et 192. Il y'a peu d'échantillons pour lesquels la demande est elevée, le nombre d'échantillon décroit exponentiellement 
 avec la valeur de la demande. On aura donc peu d'échantillons pour apprendre quand est ce que la demande est élévée, il faudra donc faire attention au
