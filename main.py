@@ -111,7 +111,7 @@ def scatter_plot() :
             plt.clf()
     return()
 
-scatter_plot()
+"""scatter_plot()"""
 
 def box_plot() :
     for column_name in categorical :
